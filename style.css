@@ -53,3 +53,24 @@ body {
     border-radius: 1rem;
     border: none;
 }
+
+#new-btn{
+
+    padding: 1rem;
+    color: blue;
+    font-size: 1.25rem;
+    background-color: rgb(38, 27, 27);
+    border-radius: 1rem;
+    border: none;
+}
+
+#win-msg{
+    color: rgb(210, 236, 96);
+    font-size: 6vmin;
+}
+.msg-container{
+    height: 15vmin;
+}
+.hide{
+    display: none;
+}
