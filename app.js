@@ -6,6 +6,7 @@ let winMsg = document.querySelector("#win-msg");
 
 let turnO = true;    // playerX, playerO
 
+// arrays of winning patterns
 const winPatterns = 
 [
     [0,1,2],
@@ -73,6 +74,12 @@ disableBoxes();
 
 }
 
+const checkDraw = () =>{
+
+
+
+}
+
 // this function is to check the winner of the game
 const checkWinner = () =>
 {
@@ -98,3 +105,4 @@ const checkWinner = () =>
 
 newGameBtn.addEventListener("click",resetGame);
 restetBtn.addEventListener("click",resetGame);
+ 
